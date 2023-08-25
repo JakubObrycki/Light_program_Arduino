@@ -51,13 +51,13 @@ if(!plik)
 void loop() {
 
   lux1 = sens1.getLux();
-  Serial.print("Light sensor 1: ");
-  Serial.print(lux1);
+  Serial.println("Light sensor 1: ");
+  Serial.println(lux1);
   sens1.start();
 
   lux2 = sens2.getLux();
-  Serial.print("Light sensor 2: ");
-  Serial.print(lux2);
+  Serial.println("Light sensor 2: ");
+  Serial.println(lux2);
   sens1.start();
 
   plik.println(lux1 = sens1.getLux());
