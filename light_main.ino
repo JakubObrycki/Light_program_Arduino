@@ -46,8 +46,6 @@ if(!plik)
 
 }
 
-//----------------Program główny---------------------
-
 void loop() {
 
   lux1 = sens1.getLux();
