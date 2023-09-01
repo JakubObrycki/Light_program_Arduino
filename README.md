@@ -1,10 +1,10 @@
-Informacje:
+Informacje ogólne
 
-Skrypt został wykonany w celu zbadania natężenia padania promieni słonecznych na okna modułów fotowoltaicznych. Program miał za zadanie zbadania oraz sprawdzenia ewentualnych obszarów zacienienia w miesiącu największej produktywności. W tym celu wykorzystano płytki Arduino z wbudowanymi mikroprocesorami oraz niezbędne elementy elektroniczne oraz optoelektroniczne.
+Program został wykonany w celu zbadania natężenia padania promieni słonecznych na okna modułów fotowoltaicznych. Skrypt miał za zadanie zbadania różnic pomiędzy czujniami, sprawdzenia ewentualnych obszarów zacienienia w miesiącu największej produktywności. Następnie porównania z wykonanymi wcześniej symulacjmi w oprogramowaniu Skelion.
 
 Urządzenia:
 
-Do badań natężenia światła wykorzystano czujniki BH1750 które są cyfrowymi układami światła kompatybilnymi z magistralą I2C mikrokontrolera Arduino. Praca czujników BH1750 łatwo współpracuje z tą platformą. Fotodioda w czujnikach wykrywa natężenie światła, po którym następuje zmiana na napięcie poprzez wbudowany integrator. Sensory zasilane są napięciem 3V-5V. Natomiast wartości natężenia jakie mierzą mieszczą się w zakresie od 1 do 65535 lx.
+W tym celu wykorzystano płytki Arduino Uno oraz niezbędne elementy elektroniczne oraz optoelektroniczne. Do badań natężenia światła wykorzystano czujniki BH1750 które są cyfrowymi układami światła kompatybilnymi z magistralą I2C mikrokontrolera Arduino. Praca czujników BH1750 łatwo współpracuje z tą platformą. Fotodioda w czujnikach wykrywa natężenie światła, po którym następuje zmiana na napięcie poprzez wbudowany integrator. Sensory zasilane są napięciem 3V-5V. Natomiast wartości natężenia jakie mierzą mieszczą się w zakresie od 1 do 65535 lx.
 
 ![image](https://github.com/Kubsoon98/Light_program_Arduino/assets/128688775/e910e2a3-2cee-4c06-808e-a7741f90c464)
 
