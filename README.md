@@ -24,8 +24,5 @@ Program dokonywał pomiarów co dwie minuty a następnie zapisywał informację 
 ![image](https://github.com/Kubsoon98/Light_program_Arduino/assets/128688775/178af3c2-0fc1-420d-82ff-605cea9a46cc)
 ![image](https://github.com/Kubsoon98/Light_program_Arduino/assets/128688775/a107577e-370c-4ed6-b279-66fe4a424f62)
 
-Wykresy: 
-
-![image](https://github.com/Kubsoon98/Light_program_Arduino/assets/128688775/32d026d4-aefc-478b-a74e-7cdbe1246a2f)
 
 
