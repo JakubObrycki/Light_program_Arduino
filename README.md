@@ -8,7 +8,7 @@ W tym celu wykorzystano płytki Arduino Uno oraz niezbędne elementy elektronicz
 
 Schemat zasilania
 
-![image](https://github.com/Kubsoon98/Light_program_Arduino/assets/128688775/3c441ca6-a362-4b38-9072-2a8fab4d9a3d)
+![image](https://github.com/Kubsoon98/Light_program_Arduino/assets/128688775/585f8c4a-8e6e-4bc4-9d20-f74f5e8be415)
 
 Montaż układu
 
