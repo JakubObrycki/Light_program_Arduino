@@ -14,8 +14,8 @@ Montaż układu
 
 W pierwszej kolejności zlokalizowano miejsca, w których zostały umieszczone czujniki. Elementy optoelektroniczne umocowano na konstrukcjach wsporczych paneli poprzez opaski w miejscach narożnych tak aby nie przysłaniały oraz nie wpływały na pracę ogniw
 
-![image](https://github.com/Kubsoon98/Light_program_Arduino/assets/128688775/3da6df52-2f7f-4065-ad07-e32eab07f68e)
-![image](https://github.com/Kubsoon98/Light_program_Arduino/assets/128688775/c019b9e3-b588-4136-a1ff-f04f5aa69e6d)
+![image](https://github.com/Kubsoon98/Light_program_Arduino/assets/128688775/e5affd87-65eb-4ee4-b094-151df2dd8e49)
+![image](https://github.com/Kubsoon98/Light_program_Arduino/assets/128688775/ddd7e76b-0661-4cdc-a97d-f4501ce60de3)
 
 
 
@@ -23,5 +23,6 @@ Przykładowe wyniki pomiarów
 
 Program dokonywał pomiarów co dwie minuty a następnie zapisywał informację w pliku tekstowym na karcie pamięci. W pierwszej kolejności zostaje podana informacja, że uruchomiono oraz zainicjalizowano kartę SD. Następnie pojawią się wyniki natężenia oświetlenia.
 
-![image](https://github.com/Kubsoon98/Light_program_Arduino/assets/128688775/a6c5284e-f2b9-4a64-90e3-f89a1b70aac4)
+![image](https://github.com/Kubsoon98/Light_program_Arduino/assets/128688775/51a18c6c-ad6f-46c9-83c8-b7391c1b89cb)
+
 
