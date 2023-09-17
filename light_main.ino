@@ -1,11 +1,8 @@
-//----------------------Biblioteki----------------------
 
 #include <SD.h>     
 #include <SPI.h>
 #include <Arduino.h>
 #include <hp_BH1750.p>
-
-//----------------Inicjalizacja czujników---------------
 
 hp_BH1750 sens1;
 hp_BH1750 sens2;
