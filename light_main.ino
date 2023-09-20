@@ -32,7 +32,7 @@ if(!SD.begin(4)) {
   Serial.println("Problem z inicjalizacja karty");
   return;
 }
-Serial.println("Zainicjalizowanie karty");
+Serial.println("Zainicjalizowanie karte");
 
 plik = SD.open("Pomiar_15_07.txt", FILE_WRITE);
 
