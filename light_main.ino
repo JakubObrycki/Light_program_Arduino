@@ -1,4 +1,3 @@
-
 #include <SD.h>     
 #include <SPI.h>
 #include <Arduino.h>
@@ -32,19 +31,15 @@ if(!SD.begin(4)) {
   Serial.println("Problem z inicjalizacja karty");
   return;
 }
-Serial.println("Zainicjalizowanie karte");
-
-plik = SD.open("Pomiar_15_07.txt", FILE_WRITE);
+  Serial.println("Zainicjalizowanie karte");
+  plik = SD.open("Pomiar_15_07.txt", FILE_WRITE);
 
 if(!plik)
-{
-  Serial.println("Problem z otwarciem pliku");
+  {
+    Serial.println("Problem z otwarciem pliku");
   }
-
 }
-
 void loop() {
-
   lux1 = sens1.getLux();
   Serial.println("Light sensor 1: ");
   Serial.println(lux1);
@@ -60,7 +55,7 @@ void loop() {
 
   ready1 = sens1.hasValue(forceReading);
   ready2 = sens2.hasValue(forceReading);
-
   delay(12000);
+
 }
 
