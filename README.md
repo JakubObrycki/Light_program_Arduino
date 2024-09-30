@@ -29,6 +29,5 @@ Przykładowe wyniki pomiarów
 
 Program dokonywał pomiarów co dwie minuty a następnie zapisywał informację w pliku tekstowym na karcie pamięci. W pierwszej kolejności zostaje podana informacja, że uruchomiono oraz zainicjalizowano kartę SD. Następnie pojawią się wyniki natężenia oświetlenia.
 
-![image](https://github.com/Kubsoon98/Light_program_Arduino/assets/128688775/51a18c6c-ad6f-46c9-83c8-b7391c1b89cb)
-
+![image](https://github.com/user-attachments/assets/1b14aaeb-eb1f-42d2-be50-94b891aa5a39)
 
