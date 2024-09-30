@@ -9,8 +9,8 @@ hp_BH1750 sens2;
 unsigned int lux1, lux2;
 bool ready1, ready2;
 bool forceReading;
-
 File plik;
+
 void setup() {
   
   forceReading = True;
