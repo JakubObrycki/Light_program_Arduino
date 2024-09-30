@@ -21,7 +21,6 @@ Montaż układu
 W pierwszej kolejności zlokalizowano miejsca, w których zostały umieszczone czujniki. Elementy optoelektroniczne umocowano na konstrukcjach wsporczych paneli poprzez opaski w miejscach narożnych tak aby nie przysłaniały oraz nie wpływały na pracę ogniw
 
 ![image](https://github.com/Kubsoon98/Light_program_Arduino/assets/128688775/e5affd87-65eb-4ee4-b094-151df2dd8e49)
-![image](https://github.com/Kubsoon98/Light_program_Arduino/assets/128688775/ddd7e76b-0661-4cdc-a97d-f4501ce60de3)
 
 ----------------------------------------------------------------------------------------------------------------
 
