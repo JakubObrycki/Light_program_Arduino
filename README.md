@@ -1,32 +1,32 @@
-Informacje ogólne
+General information
 
-Program został wykonany w celu zbadania natężenia padania promieni słonecznych na okna modułów fotowoltaicznych. Skrypt miał za zadanie zbadania różnic pomiędzy czujniami, sprawdzenia ewentualnych obszarów zacienienia w miesiącu największej produktywności. Następnie porównania z wykonanymi wcześniej symulacjmi w oprogramowaniu Skelion.
-
-----------------------------------------------------------------------------------------------------------------
-
-Urządzenia
-
-W tym celu wykorzystano płytki Arduino Uno oraz niezbędne elementy elektroniczne oraz optoelektroniczne. Do badań natężenia światła wykorzystano czujniki BH1750 które są cyfrowymi układami światła kompatybilnymi z magistralą I2C mikrokontrolera Arduino. Praca czujników BH1750 łatwo współpracuje z tą platformą. Fotodioda w czujnikach wykrywa natężenie światła, po którym następuje zmiana na napięcie poprzez wbudowany integrator. Sensory zasilane są napięciem 3V-5V. Natomiast wartości natężenia jakie mierzą mieszczą się w zakresie od 1 do 65535 lx.
+The program was created to examine the intensity of sunlight falling on the windows of photovoltaic modules. The script was designed to examine differences between sensors, check for possible areas of shading in the month of greatest productivity. Then, comparisons with previously performed simulations in the Skelion software.
 
 ----------------------------------------------------------------------------------------------------------------
 
-Schemat zasilania
+Devices
+
+For this purpose, Arduino Uno boards and the necessary electronic and optoelectronic components were used. BH1750 sensors were used to test the light intensity, which are digital light systems compatible with the I2C bus of the Arduino microcontroller. The operation of BH1750 sensors easily cooperates with this platform. The photodiode in the sensors detects the light intensity, after which a change to voltage occurs via the built-in integrator. The sensors are powered by a voltage of 3V-5V. The intensity values ​​they measure range from 1 to 65535 lx.
+
+----------------------------------------------------------------------------------------------------------------
+
+Power diagram
 
 ![image](https://github.com/Kubsoon98/Light_program_Arduino/assets/128688775/585f8c4a-8e6e-4bc4-9d20-f74f5e8be415)
 
 ----------------------------------------------------------------------------------------------------------------
 
-Montaż układu
+Assembly of the system
 
-W pierwszej kolejności zlokalizowano miejsca, w których zostały umieszczone czujniki. Elementy optoelektroniczne umocowano na konstrukcjach wsporczych paneli poprzez opaski w miejscach narożnych tak aby nie przysłaniały oraz nie wpływały na pracę ogniw
+First, the locations where the sensors were placed were located. The optoelectronic elements were attached to the support structures of the panels using bands in the corners so that they did not cover or affect the operation of the cells.
 
 ![image](https://github.com/user-attachments/assets/f3c6a126-7a1f-4924-9fd2-d794f24b64bb)
 
 ----------------------------------------------------------------------------------------------------------------
 
-Przykładowe wyniki pomiarów
+Example measurement results
 
-Program dokonywał pomiarów co dwie minuty a następnie zapisywał informację w pliku tekstowym na karcie pamięci. W pierwszej kolejności zostaje podana informacja, że uruchomiono oraz zainicjalizowano kartę SD. Następnie pojawią się wyniki natężenia oświetlenia.
+The program took measurements every two minutes and then saved the information in a text file on the memory card. First, information is given that the SD card has been started and initialized. Then the results of the illuminance will appear.
 
 ![image](https://github.com/user-attachments/assets/1b14aaeb-eb1f-42d2-be50-94b891aa5a39)
 
